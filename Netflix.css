@@ -1,0 +1,295 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 2.8em;
+}
+h3{
+    font-size:1.4em;
+    font-weight: 100;
+    margin-top: 10px;
+}
+p{
+    font-size: 1.6em;
+}
+a{
+   background-color: rgb(230, 3, 3);
+   text-decoration: none;
+}
+.first{
+    width: 100%;
+    height: 105vh;
+    background-image: url(./Netflix-background.jpg);
+    background-size: cover;
+}
+.Page-1{
+    background: linear-gradient(to bottom, rgb(0, 0, 0, 0.9), rgb(0, 0, 0, 0.4));
+    width: 100%;
+    height: 105vh;
+    text-align: center;
+}
+.header{
+    line-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10vw;
+    vertical-align: middle;
+}
+#logo{
+    width:10vw;
+}
+#sign-in{
+    padding: 8px 18px;
+    border-radius: 5px;
+}
+.homepage h1{
+    font-size: 2.7em;
+    text-align: center;
+    padding-top: 13%;
+}
+.homepage p{
+    margin: 20px 0;
+}
+.homepage h3{
+    margin: 20px 0;
+}
+#email{
+    background-color:rgba(3, 3, 3, 0.05);
+    border: 1px solid gray;
+    padding: 12px;
+    width: 30vw;
+    font-size: 1.2em;
+    margin-right: 5px;
+    height: 55px;
+}
+#start{
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+
+.second{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    border-top: 8px solid rgba(46, 44, 44, 0.9);
+}
+.flex-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 80vw;
+    height: 70vh;
+    margin:5vh 10%;
+
+}
+.TV{
+    width: 40%;
+}
+.animation{
+    width: 50%;
+    margin-top: -25%;
+
+    position: relative;
+}
+#image-1{
+    width: 475px;
+    object-fit: contain;
+
+    position: absolute;
+    z-index: 1;
+}
+#video{
+    width: 350px;
+    position: absolute;
+    top:20%;
+    left: 11%;
+    z-index: 0;
+}
+
+
+.third{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    border-top: 8px solid rgba(46, 44, 44, 0.9);
+}
+.flex-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    height: 70vh;
+    margin:5vh 10%;
+
+}
+.Stranger-Things{
+    position: relative;
+    padding: 0 12%;
+
+    width: 45%;
+}
+.shows{
+    width: 45%;
+}
+#image-2{
+    width: 240px;
+    object-fit: contain; 
+}
+#boxshot{
+    height: 80px;
+    object-fit: contain;
+}
+.download{
+    position: absolute;
+    bottom: 7%;
+    left: 22%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 100px;
+    width: 280px;
+    background-color: black;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+
+.fourth{
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    border-top: 8px solid rgba(46, 44, 44, 0.9);
+}
+.watch{
+    height: 100%;
+    padding:5% 15% ;
+}
+#watch{
+    width: 40%;
+    height: 100%;
+}
+
+
+.fifth{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    border-top: 8px solid rgba(46, 44, 44, 0.9);
+}
+.flex-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    margin:5% 10%;
+}
+.kids{
+    width: 45%;
+}
+.profiles{
+    width: 45%;
+}
+#image-3{
+    width: 450px;
+    object-fit: contain;
+}
+
+.sixth{
+    width: 100%;
+    height: 140vh;
+    background-color: black;
+    border-top: 8px solid rgba(46, 44, 44, 0.9);  
+    text-align: center;
+    padding-top: 70px;
+}
+.Questions{
+    padding: 15px 10%;
+}
+.FAQ a{
+    display: block;
+    background-color: rgba(56, 55, 55, 0.5);
+    text-align: start;
+    font-size: 1.5em;
+    padding: 25px;
+    margin: 10px;
+}
+.FAQ a:hover{
+    background-color: rgb(56, 55, 55) ;
+}
+#Last-h3{
+    margin: 20px 0;
+}
+
+.Last-page{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    border-top: 8px solid rgba(46, 44, 44, 0.9);  
+    padding-top: 50px;
+    text-align: left;
+}
+.p-link{
+    height: 90%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0% 10%;
+}
+.ref{
+    width:33% ;
+}
+#first-child{
+    width: 100%;
+}
+.link{
+    background-color: black;
+    text-decoration: underline;
+}
+
+@media(max-width:850px){
+    .parent{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: top;
+    }
+    .child{
+        width: 100%;
+    }
+    .pages{
+        height: 100vh;
+        width: 100%;
+    }
+    .Stranger-Things{
+        padding: 0 25%;
+    }
+    .watch{
+        height: 40vh;
+    }
+    #watch{
+        width: 100%;
+    }
+    .shows{
+        height: 50px;
+    }
+    .TV{
+        margin-top: -20%;
+    }
+}
